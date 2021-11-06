@@ -73,3 +73,34 @@ There are open source repositories [with HumanNoids](https://github.com/robotolo
 - The shape of the robot must either be a square or a rectangle.
 - The robot must provide information about positions of all the joints and sensors and the relationship between their coordinates frames.
 - The robot must, at the very least, have a range sensor or similar such as a planar laser or a sonar. However, depth sensors can also be projected as ranger - sensors before using them with the stack.
+
+## What is MoveIt
+
+[In this chapter](https://learning.oreilly.com/library/view/robot-operating-system/9781783987443/14e717c6-2fb0-406c-ba1b-edae9f4cdb55.xhtml), we will address how to create and configure a **MoveIt! package** for a manipulator robot and perform motion planning. We will also learn how to add perception and perform grasping. `ROS manipulation` is the term used to refer to any robot that manipulates something in its environment. And what does this mean? Well, it means that it physically alters something in the world, for instance, by changing it from its initial position.
+
+MoveIt is a set of packages and tools that allow us to perform manipulation with ROS. MoveIt provides software and tools in order to do motion planning, manipulation, perception, kinematics, collision checking, control, and navigation. Yes! It is a huge and very useful tool. We can learn more about it by checking all of its documentation on [the official website](http://moveit.ros.org).
+
+Use-cases include robots functioning in:
+
+- Dangerous workplaces
+- repetitive work
+- workspaces too big, small, or precise for humans
+
+Basically, we'll need to go through the following four main topics:
+
+- MoveIt
+- Motion planning
+- Perception (RGBD sensor like Microsoft Kinect)
+- Grasping
+
+A `manipulator robot` is modeled as a chain of rigid links, which are connected by joints, and which end in what is known as the end-effector of the robot. So, basically, any manipulator is composed of these three elemental parts:
+
+- Links: Rigid pieces that connect the joints of the manipulator
+- Joints: Connectors between the links of the manipulator, providing either translational or rotational movement
+- End Effector: These include the following:
+  - Grippers/tools
+  - Grippers/tools with sensors
+
+DoFs for manipulation: DoFs is the word used to refer to the `Degrees of Freedom` of a robot.
+
+![movit-arch.png](movit-arch.png)

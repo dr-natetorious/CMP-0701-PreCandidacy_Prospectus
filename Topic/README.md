@@ -21,3 +21,7 @@ The authors create a smart garbage bin that detects its full and navigates to th
 > Robot Operating System (ROS) is an open-source, meta-operating system for a robot that acts as an operating system for provide services including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management.
 
 ![ros_structure.png](ros_structure.png)
+
+## Unified Framework for Multi-Agent Reinforcement Learning (2021)
+
+~Wang, X., Zhang, L., Laili, Y., Xie, K., Lu, H., & Zhao, C. (2021). MADES: A Unified Framework for Integrating Agent-Based Simulation with Multi-Agent Reinforcement Learning. 2021 Annual Modeling and Simulation Conference (ANNSIM), Modeling and Simulation Conference (ANNSIM), 2021 Annual, 1–12. https://doi.org/10.23919/ANNSIM52504.2021.9552052.~

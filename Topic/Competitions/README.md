@@ -38,4 +38,4 @@ Teams compete to build a general-purpose robot that can drive a car, then get ou
 
 - Walking
 - Maintaining balance
-- Pick and Place 
+- Pick and Place
